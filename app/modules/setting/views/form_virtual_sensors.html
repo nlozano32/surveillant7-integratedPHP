@@ -1,0 +1,155 @@
+
+				<!--=== Page Header ===-->
+				<div class="page-header">
+					<div class="page-title">
+						<h3>Virtual sensors</h3>
+						
+					</div>
+
+				</div>
+				<!-- /Page Header -->
+
+				<!--=== Page Content ===-->
+
+
+				<!--=== Blue Chart ===-->
+
+<!--=== Page Content ===-->
+				<div class="row">
+					<!--=== Horizontal Forms ===-->
+					<div class="col-md-12">
+						<div class="widget box">
+							<div class="widget-header">
+								<h4><i class="icon-reorder"></i>Virtual sensors managment</h4>
+							</div>
+							<div class="widget-content">
+								
+								<form class="form-horizontal row-border" action="#">
+
+										<div class="form-group">
+
+										<div class="row">
+												<label class="col-md-2 control-label">Sensor No.</label>
+												<div class="col-md-1">
+													<input type="text" name="regular" class="form-control input-width-mini" value = "V" disabled="disabled"><span class="help-block"></span>
+												</div>
+												<div class="col-md-1">
+													<input type="text" name="regular" class="form-control input-width-mini" placeholder="XXXX"><span class="help-block"></span>
+												</div>
+												<label class="col-md-2 control-label">Description</label>
+												<div class="col-md-4">
+													<input type="text" name="regular" class="form-control">
+												</div>	
+										</div>
+										<div class="row">
+										<label class="col-md-2 control-label">Active</label>
+										<div class="col-md-1">
+											<select class="form-control" name="select">
+														<option value="opt1">YES</option>
+														<option value="opt2">NO</option>
+													</select>
+										</div>
+										<label class="col-md-3 control-label">Statistics</label>
+										<div class="col-md-1">
+											<select class="form-control" name="select">
+														<option value="opt1">YES</option>
+														<option value="opt2">NO</option>
+													</select>
+										</div>
+									</div>
+									</br>
+									<div class="row">
+									<label class="col-md-2 control-label">Evaluation formula</label>
+
+										<div class="col-md-8">
+
+											<textarea rows="10" cols="20" name="textarea" class="form-control"></textarea>
+
+										</div>
+
+									</div>
+									</br>
+									<div class="row">
+										
+
+										<h3 class="align-center">The following symbols are valid in the evaluation formula + - / * < > ()</h3>
+										<h3 class="align-center">Ex:($T1011+$T1021)/2 will return the average od 2 temperature sensors.</h3>
+
+										
+
+									</div>
+									
+									
+									</div>
+									<div class="form-actions">
+
+											<input type="submit" value="Delete" class="btn btn-primary pull-right">
+											<input type="submit" value="Add" class="btn btn-primary pull-right">
+											<input type="submit" value="Update" class="btn btn-primary pull-right">
+											<button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#search"> Search </button>
+
+											>
+  <div class="modal fade" id="search" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><i class="icon-search"></i> Search window</h4>
+        </div>
+        <div class="modal-body">
+
+          <div class="row">
+					<div class="col-md-12">
+						<div class="widget box">
+
+							<div class="widget-content no-padding">
+								<table class="table table-striped table-bordered table-hover table-checkable table-responsive datatable">
+								
+									<tbody>
+										<tr>
+											
+											<td>V0001</td>
+											<td>COMPTEUR POUR RESET MIN/MAX</td>
+											
+										</tr>
+										<tr>
+											
+											<td>V0002</td>
+											<td>RESET COMPTEUR MIN/MAX</td>
+										</tr>
+										<tr>
+											
+											<td>V0005</td>
+											<td>MIN/MAX INTIALLISATION</td>
+										</tr>
+										<tr>
+											
+											<td>V0006</td>
+											<td>MIN INTIALLISATION</td>
+										</tr>
+				
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Responsive DataTable -->
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+										</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- /Horizontal Forms -->
